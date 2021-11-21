@@ -6,11 +6,256 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto">
+    
+    <!-- Jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/bbc6ef6cbe.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Resume / Portfolio </title>
 </head>
 <body>
-    Hello there
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light pt-3">
+            <a class="navbar-brand" href="/"><img src="assets/images/home-section-logo.png" alt="Site logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex justify-content-start w-100">
+                <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#contributors">Contributors</a>
+                <a class="nav-link" href="#about-me">About me</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <a href="#portfolio" class="btn btn-dark nav-portfolio-button-md d-lg-none">Portfolio Here</a>
+              </div>
+              <a href="#portfolio" class="btn btn-dark nav-portfolio-button-lg d-lg-inline d-md-none d-sm-none d-xs-none">Portfolio Here</a>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container-fluid px-0">
+        
+    <!-- This div contains the background image and text for the hero -->
+    <div class="hero-bg-image w-100">
+
+        <!-- Hero background image -->
+        <img src="assets/images/home-section-background.png" class="img-fluid" />
+        <!-- Background image end -->
+
+            <!-- Hero Text -->
+        <div class="hero-text d-flex flex-column">
+            <p class="hola-text">Hola! I'm</p>
+            <p class="name-text"">Justin Vaccaro</p>
+            <p class="creative-designer-text"">Creative <br> &nbsp;&nbsp;Designer 
+                <span class="full-stop"></span>
+            </p>
+            <p class="hero-long-text mt-3">
+                why sir end believe uncivil respect. Always get adieus
+                nature day course for common. My little garret repair
+                to desire he esteem.
+            </p>
+            <p class="social-links d-flex justify-content-between">
+                <i class="fab fa-facebook social-icon"></i>
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fab fa-twitter social-icon"></i>
+                <i class="fab fa-linkedin social-icon"></i>
+            </p>
+            <p>
+                <button type="button" class="cv-button btn">CV Here</button>
+            </p>
+        </div>
+        <!-- Hero Text End -->
+    </div>
+    
+    <!-- Big full stop -->
+    <section class="new-section w-100">
+        <div class="big-full-stop">
+        </div>
+    </section>
+
+    <!-- Project and Clients info -->
+    <section class="new-section w-100 mt-5">
+        <div class="projects-clients-info row justify-content-center px-0">
+            <div class="projects-info col-3 text-center">
+                <h1>124</h1>
+                <p>Complete <br>Projects</p>
+            </div>
+            <div class="clients-info col-3 text-center">
+                <h1>99%</h1>
+                <p>Satisfied <br>Clients</p>
+            </div>
+            <div class="campaign-info col-3 text-center">
+                <h1>235</h1>
+                <p>Success <br>Campaign</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contributors section -->
+    <section class="new-section contributors-section">
+        <div class="row justify-content-center">
+            <div class="col-9 text-center">
+            <h2>Contributors.</h2>
+            <p>
+                Why sir end belief uncivil respect.Always get adieus nature day course for common.
+                My little garret repair to desire he esteem.
+            </p>
+        </div>
+        </div>
+
+        <!-- Contributor's row 1 -->
+        <div class="row mt-5 justify-content-center">
+            <div class="col-3 d-flex align-items-center"><img src="/assets/images/behance-logo.png" alt="Behance logo"></div>
+            <div class="col-3 d-flex align-items-center"><img src="/assets/images/google.png" alt="Google"></div>
+            <div class="col-3 d-flex align-items-center"><img src="/assets/images/dribbble-logo.png" alt="Dribbble logo"></div>
+        </div>
+
+        <!-- Contributor's row 2 -->
+        <div class="row mt-5 justify-content-center">
+            <div class="col-3 d-flex align-items-center"><img src="/assets/images/uplabs-logo.png" alt="Uplabs logo"></div>
+            <div class="col-3 d-flex align-items-center"><img src="/assets/images/99designs-logo.png" alt="99designs logo"></div>
+        </div>
+        
+        <div class="row justify-content-end contributor-thread-image">
+            <img src="/assets/images/contributor-side-bg.png" alt="contributor thread image">
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="new-section services-section">
+        <div class="row justify-content-center">
+            <div class="col-9 text-center mb-5">
+                <h2>Services<span class="small-orange-circle">.</span></h2>
+                <p>
+                    Why sir end belief uncivil respect.Always get adieus nature day course for common.
+                    My little garret repair to desire he esteem.
+                </p>
+            </div>
+
+            <!-- Services cards -->
+            <div class="row services-cards mt-5">
+                <div class="col-4">
+                    <div class="card pb-5" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/ui-ux-icon.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">UI/UX Design</h4>
+                          <p class="card-text">Why money's in that office, right if she start giving me some bullshit about it ain't there someplace or anywhere</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 my-5">
+                    <div class="card pb-5 web-design-card" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/web-design-icon.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Web Design</h4>
+                          <p class="card-text">Why money's in that office, right if she start giving me some bullshit about it ain't there someplace or anywhere</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card pb-5" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/wp-developing-icon.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">WP Developing</h4>
+                          <p class="card-text">Why money's in that office, right if she start giving me some bullshit about it ain't there someplace or anywhere</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section">
+        <div class="row justify-content-center mx-0">
+            <div class="col-6 text-center">
+                <h2>About me.</h2>
+                <p>
+                    I'm Justin Vaccaro and I do web design, Graphic Design, User Experiences. habitant et netus et
+                    malesuada fames ac turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet
+                </p>
+            </div>
+
+            <div class="col-12 px-0">
+                <img src="/assets/images/about-background.png" class="w-100" alt="about us background image"/>
+                <img src="/assets/images/about-us-dotted.png" alt="Dotted image" class="floating-dots">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio-section">
+        
+            <div class="w-100 text-center mb-5">
+                <h2>Our Regular Updated<br/> <span class="orange-text">Portfolio.</span></h2>
+            </div>
+            <div class="w-100 d-flex">
+                <div class="image-1">
+                    <img src="/assets/images/portfolio-image-1.png" class="w-100" alt="">
+                </div>
+                <div class="d-flex flex-column other-images">
+                    <div class="d-flex">
+                        <div class="image-2">
+                            <img src="/assets/images/portfolio-image-2.png" class="w-100" alt="">
+                        </div>
+                        <div class="image-3 ml-portfolio">
+                            <img src="/assets/images/portfolio-image-3.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex mt-28">
+                        <div class="image-4">
+                            <img src="/assets/images/portfolio-image-4.png" class="w-100" alt="">
+                        </div>
+                        <div class="image-5 ml-portfolio">
+                            <img src="/assets/images/portfolio-image-5.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- Contact us section -->
+    <section class="new-section contact-us-section">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="/assets/images/contact-section-thread-icon.png" alt="contact section thread icon">
+            </div>
+            <div class="col-12 text-center">
+                <h2>Contact.</h2>
+            </div>
+            <div class="col-12">
+                <p class="contact-text text-center">
+                    Truth is a deep kindness that teaches us to be content in our everyday life and share with the 
+                    people the same happiness. The feeling of sunday is the same everywhere: heavy, melancholy, 
+                    standing still.
+                </p>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <img src="/assets/images/contact-section-logo.png" alt="Contact us logo">
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <p class="social-links d-flex justify-content-center">
+                <i class="fab fa-facebook social-icon"></i>
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fab fa-twitter social-icon"></i>
+                <i class="fab fa-linkedin social-icon"></i>
+            </p>
+            </div>
+            <div class="col-12">
+                <p class="text-center mt-3">&copy; 2021 AbbVie Inc. .All rights reserved</p>
+            </div>
+        </div>
+    </section>
+</div>
 </body>
 </html>
