@@ -12,10 +12,6 @@ body{
     color:var(--orange) !important;
 }
 
-div.hero-bg-image{
-    margin-top: -83px;
-}
-
 .hero-text{
     position:absolute;
     width: 29%;
@@ -255,15 +251,307 @@ a[href="#portfolio"].d-lg-inline{
     font-size: 0.9rem;
     width: 10rem;
     border-radius: 100px;
-    margin-right: 7.3%;
+    margin-right: 1%;
 }
+
+div.container-fluid{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+}
+
+/* .hero-text{
+    position: absolute;
+    top: 12rem;
+    left: 10rem;
+} */
+
+@media (max-width: 575.98px) { 
+    
+
+    nav.navbar{
+        z-index: 5;
+        padding-top: 0rem !important;
+    }
+
+    nav .navbar-collapse{
+        background: var(--dark-orange);
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+    nav .nav-link{
+        color: white !important;
+    }
+
+    div.hero-bg-image{
+        position:absolute;
+        top: 0px;
+        z-index:3;
+        margin-top:0px;
+    }
+
+    .nav-portfolio-button-lg{
+        display:none;
+    }
+
+    .hero-text{
+        top: 16%;
+        width:auto;
+        left: 0%;
+        padding: 0% 4%;
+    }
+
+    .hero-text .hola-text{
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+
+    .hero-text .name-text{
+        font-size: 1.5rem;
+    }
+
+    .hero-text .hero-long-text{
+        padding: 0 15rem 0 0rem;
+    }
+
+    .hero-text .creative-designer-text{
+        font-size: 2rem;
+    }
+
+    .full-stop-section{
+        margin-top: 80%;
+        padding: 0rem 1rem;
+    }
+
+    .creative-designer-text .full-stop{
+        bottom: 17.5rem;
+        left: 11rem;
+    }
+
+    .hero-text .social-links{
+        width: 30%;
+    }
+
+    .projects-clients-info{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .projects-info,
+    .clients-info,
+    .campaign-info{
+        max-width: 30%;
+    }
+
+    .projects-clients-info h1{
+        font-size: 2.75rem;
+    }
+
+    .contributors-section p, .services-section p{
+        padding: 0% 16%;
+    }
+
+    .contributors-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contributors-row img{
+        margin-bottom: 2rem;
+    }
+
+    .contributors-row .col-3{
+        max-width: 55%;
+    }
+
+    .services-cards img{
+        align-self: center;
+        margin-left: 0rem;
+    }
+
+    .services-cards .card-title,
+    .services-cards .card-text{
+        text-align: center;
+    }
+
+    .mt-sm-0{
+        margin-top:0% !important;
+    }
+
+    .d-sm-none{
+        display: none;
+    }
+
+    .services-section{
+        margin-top: 50px;
+    }
+
+    .services-cards{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .about-us-section{
+        margin-top: 10rem;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    nav.navbar{
+        z-index: 5;
+        padding-top: 0rem !important;
+    }
+
+    nav .navbar-collapse{
+        background: var(--dark-orange);
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+    nav .nav-link{
+        color: white !important;
+    }
+
+    div.hero-bg-image{
+        position:absolute;
+        top: 0px;
+        z-index:3;
+        margin-top:0px;
+    }
+
+    /* .hero-text{
+        top: 16%;
+        width:auto;
+        left: 0%;
+        padding: 0% 4%;
+    } */
+    
+    .hero-text{
+        position: absolute;
+        top: 12rem;
+        left: 10rem;
+    }
+
+    .hero-text .hola-text{
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+
+    .hero-text .name-text{
+        font-size: 1.5rem;
+    }
+
+    .hero-text .hero-long-text{
+        padding: 0 15rem 0 0rem;
+    }
+
+    .hero-text .creative-designer-text{
+        font-size: 2rem;
+    }
+
+    .full-stop-section{
+        margin-top: 80%;
+        padding: 0rem 1rem;
+    }
+
+    .contributors-section p, .services-section p{
+        padding: 0% 16%;
+    }
+
+    .contributors-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contributors-row img{
+        margin-bottom: 2rem;
+    }
+
+    .contributors-row .col-3{
+        max-width: 50%;
+    }
+
+    .services-cards img{
+        align-self: center;
+        margin-left: 0rem;
+    }
+
+    .services-cards .card-title,
+    .services-cards .card-text{
+        text-align: center;
+    }
+
+    .services-section{
+        margin-top: 50px;
+    }
+
+    .services-cards{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .about-us-section{
+        margin-top: 10rem;
+    }
+
+    .projects-info,
+    .clients-info,
+    .campaign-info{
+        max-width: 33%;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .hero-text{
+        width: 44%;
+        left: 8%;
+        top: 28%;
+    }
+
+    .hero-long-text{
+        width: 20rem;
+    }
+
+    div.hero-bg-image{
+        position:absolute;
+        top: 0px;
+        z-index:3;
+        margin-top:0px;
+    }
+ }
+
+ @media (min-width:1200px){
+    a[href="#portfolio"].d-lg-inline{
+        font-size: 0.9rem;
+        width: 10rem;
+        border-radius: 100px;
+        margin-right: 7.3%;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    a[href="#portfolio"].d-lg-inline{
+        font-size: 0.9rem;
+        width: 10rem;
+        border-radius: 100px;
+        margin-right: 1%;
+    }
+ }  
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-left: 14.7%;
-        width: 40%;
+        margin-left: 9%;
+        width: 55%;
         font-weight: 700;
     }
 
