@@ -12,62 +12,64 @@ body{
     color:var(--orange) !important;
 }
 
-.hero-text{
+/* .hero-text{
     position:absolute;
     width: 29%;
     left: 13%;
     top: 27%;
     height: 66.77%;
-}
+} */
 
 .hero-text .hola-text{
-    font-size: 1rem;
+    font-size: 1.1vw;
     font-weight: bold;
 }
 
 .hero-text .name-text{
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--light-orange);
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: var(--dark-orange);
     margin:0px;
 }
 
-.hero-text .creative-designer-text{
-    font-size: 5rem;
-    font-weight:900;
-    line-height: 1; 
+.hero-text .creative-designer-text {
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 0.8;
 }
 
-.creative-designer-text .full-stop{
-    position:absolute;
-    bottom: 11.875rem;
-    left: 25rem;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: var(--light-orange);
+.creative-designer-text .full-stop {
+    position: absolute;
+    top: 2.55em;
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 10px;
+    background-color: var(--dark-orange);
 }
-
 
 .hero-long-text{
     font-size: 1rem;
     font-weight: 500;
 }
 
-.hero-text .social-links{
-    width: 50%;
+.hero-text .social-links {
+    width: 12vw;
 }
 
 .social-icon{
     font-size:1.5rem;
 }
 
-.cv-button{
-    background-color: var(--light-orange);
+.cv-button {
+    background-color: var(--dark-orange);
     color: white;
     border-radius: 50px;
-    padding: 0.5rem 2rem;
+    padding: 1% 8%;
     font-weight: 500;
+}
+
+.full-stop{
+    color: var(--dark-orange);
 }
 
 .new-section{
@@ -260,15 +262,21 @@ div.container-fluid{
     top: 0px;
 }
 
-/* .hero-text{
+.hero-text{
     position: absolute;
-    top: 12rem;
-    left: 10rem;
-} */
+    top: 21vh;
+    left: 14vw;
+    width: 30vw;
+}
+
+.hero-text .hero-long-text {
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 1.3;
+}
 
 @media (max-width: 575.98px) { 
     
-
     nav.navbar{
         z-index: 5;
         padding-top: 0rem !important;
@@ -295,28 +303,29 @@ div.container-fluid{
         display:none;
     }
 
-    .hero-text{
-        top: 16%;
-        width:auto;
-        left: 0%;
-        padding: 0% 4%;
+    .hero-text {
+        position: absolute;
+        top: 10vh;
+        left: 14vw;
     }
 
-    .hero-text .hola-text{
-        font-size: 0.8rem;
-        margin-bottom: 0%;
+    .hero-text .hola-text {
+        font-size: 2.1vw;
+        font-weight: bold;
+        margin-bottom: 0px;
     }
 
-    .hero-text .name-text{
-        font-size: 1.5rem;
+    .hero-text .name-text {
+        font-size: 2.8vw;
     }
 
-    .hero-text .hero-long-text{
-        padding: 0 15rem 0 0rem;
+    .creative-designer-text .full-stop {
+        top: 16vh;
     }
 
-    .hero-text .creative-designer-text{
-        font-size: 2rem;
+    .hero-text .hero-long-text {
+        font-size: 1.6vw;
+        margin-top: 1px !important;
     }
 
     .full-stop-section{
@@ -324,13 +333,10 @@ div.container-fluid{
         padding: 0rem 1rem;
     }
 
-    .creative-designer-text .full-stop{
-        bottom: 17.5rem;
-        left: 11rem;
-    }
-
-    .hero-text .social-links{
-        width: 30%;
+    .hero-text .social-links {
+        width: 20vw;
+        margin-top: -2vh;
+        margin-bottom: 0px;
     }
 
     .projects-clients-info{
@@ -363,7 +369,7 @@ div.container-fluid{
         margin-bottom: 2rem;
     }
 
-    .contributors-row .col-3{
+    .contributors-row .col-4{
         max-width: 55%;
     }
 
@@ -392,6 +398,10 @@ div.container-fluid{
     .services-cards{
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .services-cards .card {
+        width: 45vw;
     }
 
     .about-us-section{
@@ -423,34 +433,33 @@ div.container-fluid{
         margin-top:0px;
     }
 
-    /* .hero-text{
-        top: 16%;
-        width:auto;
-        left: 0%;
-        padding: 0% 4%;
-    } */
+    .hero-text .hola-text {
+        font-size: 2.1vw;
+        font-weight: bold;
+        margin-bottom: 0vh;
+    }
     
     .hero-text{
         position: absolute;
-        top: 12rem;
-        left: 10rem;
+        top: 8vh;
+        left: 14vw;
     }
 
-    .hero-text .hola-text{
-        font-size: 0.8rem;
-        margin-bottom: 0%;
+    .hero-text .name-text {
+        font-size: 2.7vw;
     }
 
-    .hero-text .name-text{
-        font-size: 1.5rem;
+    .hero-text .hero-long-text {
+        font-size: 1.8vw;
+        margin: 0px !important;
     }
 
-    .hero-text .hero-long-text{
-        padding: 0 15rem 0 0rem;
+    .creative-designer-text .full-stop {
+        top:2.8em;
     }
 
-    .hero-text .creative-designer-text{
-        font-size: 2rem;
+    .hero-text .social-links {
+        width: 20vw;
     }
 
     .full-stop-section{
@@ -496,6 +505,10 @@ div.container-fluid{
         flex-wrap: nowrap;
     }
 
+    .services-cards .card{
+        width: 40vw;
+    }
+
     .about-us-section{
         margin-top: 10rem;
     }
@@ -509,14 +522,67 @@ div.container-fluid{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .hero-text{
-        width: 44%;
-        left: 8%;
-        top: 28%;
+
+    .hero-text {
+        top: 9vh;
     }
 
-    .hero-long-text{
-        width: 20rem;
+    .services-cards .ui-ux-col,
+    .services-cards .web-developing-col,
+    .services-cards .web-design-col
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-text .hola-text {
+        font-size: 1.8vw;
+        font-weight: bold;
+        margin-bottom: 0rem;
+    }
+
+    .hero-text .name-text {
+        font-size: 2.3vw;
+    }
+
+    nav.navbar{
+        z-index: 5;
+        padding-top: 0rem !important;
+    }
+
+    nav .navbar-collapse{
+        background: var(--dark-orange);
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+    nav .nav-link{
+        color: white !important;
+    }
+
+    .contributors-section{
+        margin-top: 67vh;    
+    }
+
+    .services-cards .my-5{
+        margin: 0px !important;
+    }
+
+    .services-cards .card{ 
+        width: 32vw;
+    }
+
+    .hero-text .social-links {
+        width: 20vw;
+    }s
+
+    .services-cards .col-md-6, .wp-developing-col{
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .services-cards .card.wp-developing{
+        margin-top: 3vh;
     }
 
     div.hero-bg-image{
@@ -554,6 +620,10 @@ div.container-fluid{
         width: 55%;
         font-weight: 700;
     }
+
+    .projects-clients-info{
+        height: 100vh
+    }    
 
     nav .navbar-brand{
         margin-left: 6.20%;
