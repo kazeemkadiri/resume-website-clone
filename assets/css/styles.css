@@ -6,264 +6,9 @@
 
 body{
     font-size: 0.90rem;
+    font-family:'Roboto',serif;
 }
 
-.navbar-nav > .nav-link.active, .navbar-nav > .nav-link:hover{
-    color:var(--dark-orange) !important;
-}
-
-.nav-link::after{
-    content:"";
-    width: 20px;
-    height: 1px;
-    display: flex;
-    flex-direction: column;
-    border:1px solid rgba(233,101,41,0);
-}
-
-.nav-link.active::after,
-.nav-link:hover::after{
-    /* background-color: var(--light-orange); */
-    border:1px solid rgba(233,101,41,1);
-}
-
-
-/* .hero-text{
-    position:absolute;
-    width: 29%;
-    left: 13%;
-    top: 27%;
-    height: 66.77%;
-} */
-
-.hero-text .hola-text{
-    font-size: 1.1vw;
-    font-weight: bold;
-}
-
-.hero-text .name-text{
-    font-size: 1.8vw;
-    font-weight: 700;
-    color: var(--dark-orange);
-    margin:0px;
-}
-
-.hero-text .creative-designer-text {
-    font-size: 6vw;
-    font-weight: 700;
-    line-height: 0.8;
-}
-
-.creative-designer-text .full-stop {
-    position: absolute;
-    top: 2.55em;
-    width: 1.2vw;
-    height: 1.2vw;
-    border-radius: 10px;
-    background-color: var(--dark-orange);
-}
-
-.hero-long-text{
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.hero-text .social-links {
-    width: 12vw;
-}
-
-.social-icon{
-    font-size:1.5rem;
-}
-
-.cv-button {
-    background-color: var(--dark-orange);
-    color: white;
-    border-radius: 50px;
-    padding: 1% 8%;
-    font-weight: 500;
-}
-
-.full-stop{
-    color: var(--dark-orange);
-}
-
-.new-section{
-    position:relative;
-    padding:0 11%;
-}
-
-.big-full-stop{
-    width: 1.875rem;
-    height: 1.875rem;
-    background: var(--light-orange);
-    border-radius: 15px;
-    box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
--webkit-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
--moz-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
-}
-
-.projects-clients-info{
-    height:23.87%;
-    margin-bottom: 100px;
-}
-
-.projects-clients-info h1{
-    color: var(--dark-orange);
-    font-size: 3.75rem;
-    font-weight:700;
-}
-
-.projects-clients-info .clients-info{
-    border-right: 2px solid var(--dark-orange);
-    border-left: 2px solid var(--dark-orange);
-}
-
-.projects-clients-info p {
-    font-size: 1.5rem;
-}
-
-.dot{
-    width: 0.625rem;
-    height: 0.625rem;
-    background: var(--light-orange);
-    border-radius: 5px;
-    color: var(--light-orange);
-}
-
-.contributors-section h2, 
-.services-section h2, 
-.about-us-section h2,
-.portfolio-section h2{
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.contributors-section p, 
-.services-section p{
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0% 8%;
-}
-
-.contributor-thread-image{
-    margin-top: 10%;
-}
-
-.services-cards .card{
-    background: var(--light-card-color);
-}
-
-.services-cards img{
-    max-width: 36.5%;
-    margin-left: 1.25rem;
-    margin-top:2.125rem;
-}
-
-.services-cards h4{
-    font-weight: 700;
-}
-
-.services-cards p.card-text{
-    padding: 0%;
-}
-
-.services-cards .card{
-    border: none;
-    border-radius: 0px;
-}
-
-.services-cards .web-design-card{
-    border-bottom: 6px solid var(--dark-orange);
-}
-
-.small-orange-circle{
-    color:var(--dark-orange);
-}
-
-.orange-text{
-    color: var(--dark-orange);
-}
-
-.about-us-section, 
-.portfolio-section,
-.contact-us-section {
-    margin-top: 15%;
-}
-
-.about-us-section p {
-    padding : 0% 5%;
-    font-weight: 500;
-}
-
-.about-us-section .floating-dots{
-    position:absolute;
-    top: -10%;
-    left: 8.5%;
-}
-
-.portfolio-section img{
-    max-width: 100%;
-}
-
-.portfolio-section .bottom-image{
-    margin-top: 5.5%;
-}
-
-.portfolio-section .image-1{
-    width: 44%;
-}
-
-.portfolio-section .other-images{
-    width: 53.33%; 
-    margin-left: 2.5%;
-    display: flex;
-    position: relative;
-}
-
-.other-images .image-2,
-.other-images .image-3,
-.other-images .image-4,
-.other-images .image-5{
-    width: 47.77%;
-    height:auto;
-    position:relative;
-}
-
-.mt-28{
-    margin-top: 2.8%;
-}
-
-.other-images img{
-    width: 100%;
-}
-
-
-
-.portfolio-section .ml-portfolio{
-    margin-left: 5%;
-}
-
-.ml--10{
-    margin-left: -10%;
-}
-
-.contact-us-section h2{
-    margin-top: 10%;
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--dark-orange);
-}
-
-.contact-us-section .contact-text{
-    margin-top: 4%;
-    padding: 0% 22%;
-    font-weight: 500;
-}
-
-.contact-us-section .social-icon{
-   margin:0% 16%;
-}
 
 a[href="#portfolio"].d-lg-inline{
     font-size: 0.9rem;
@@ -289,6 +34,25 @@ div.container-fluid{
     font-size: 1.3vw;
     font-weight: 500;
     line-height: 1.3;
+}
+
+.navbar-nav > .nav-link.active, .navbar-nav > .nav-link:hover{
+    color:var(--dark-orange) !important;
+}
+
+.nav-link::after{
+    content:"";
+    width: 20px;
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(233,101,41,0);
+}
+
+.nav-link.active::after,
+.nav-link:hover::after{
+    /* background-color: var(--light-orange); */
+    border:1px solid rgba(233,101,41,1);
 }
 
 @media (max-width: 575.98px) { 
@@ -319,6 +83,21 @@ div.container-fluid{
         display:none;
     }
 
+    .contact-thread-image{
+        position: relative;
+        top: 10vh;
+    }
+
+    .contact-us-section h2{
+        margin-top: 10vh;
+        color:var(--dark-orange);
+        font-weight: 700;
+    }
+
+    .contact-us-section p{
+        padding: 2% 10%;
+    }
+
     .hero-text {
         position: absolute;
         top: 10vh;
@@ -333,15 +112,29 @@ div.container-fluid{
 
     .hero-text .name-text {
         font-size: 2.8vw;
+        color:  var(--dark-orange);
     }
 
     .creative-designer-text .full-stop {
         top: 16vh;
     }
 
+    .creative-designer-text{
+        font-weight:800;
+        font-size:4vw
+    }
+
+    .cv-button {
+        background-color: var(--dark-orange);
+        color: white;
+        border-radius: 50px;
+        padding: 2% 10%;
+        font-weight: 500;
+        margin-top: -1vh;
+    }
+
     .hero-text .hero-long-text {
-        font-size: 1.6vw;
-        margin-top: 1px !important;
+        display: none;
     }
 
     .full-stop-section{
@@ -353,6 +146,7 @@ div.container-fluid{
         width: 20vw;
         margin-top: -2vh;
         margin-bottom: 0px;
+        display: none;
     }
 
     .projects-clients-info{
@@ -363,11 +157,17 @@ div.container-fluid{
     .projects-info,
     .clients-info,
     .campaign-info{
-        max-width: 30%;
+        max-width: 33%;
+    }
+    
+    .clients-info{
+        border-left: 2px solid var(--dark-orange);
+        border-right: 2px solid var(--dark-orange);
     }
 
     .projects-clients-info h1{
         font-size: 2.75rem;
+        color: var(--dark-orange);
     }
 
     .contributors-section p, .services-section p{
@@ -392,6 +192,8 @@ div.container-fluid{
     .services-cards img{
         align-self: center;
         margin-left: 0rem;
+        width: 26vw;
+        margin-top: 3vh;
     }
 
     .services-cards .card-title,
@@ -422,6 +224,16 @@ div.container-fluid{
 
     .about-us-section{
         margin-top: 10rem;
+    }
+
+    .floating-dots{
+        position: absolute;
+        left: 4vw;
+        bottom: 52vh;
+    }
+
+    .orange-text{
+        color: var(--dark-orange);
     }
  }
 
@@ -457,21 +269,43 @@ div.container-fluid{
     
     .hero-text{
         position: absolute;
-        top: 8vh;
+        top: 20vh;
         left: 14vw;
     }
 
     .hero-text .name-text {
         font-size: 2.7vw;
+        color:var(--dark-orange);
     }
 
     .hero-text .hero-long-text {
         font-size: 1.8vw;
         margin: 0px !important;
+        display:none;
+    }
+
+    .creative-designer-text{
+        font-size: 4.8vw;
+        font-weight: 800;
+        line-height: 1.2;  
     }
 
     .creative-designer-text .full-stop {
-        top:2.8em;
+        top: 4.2em;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        border-radius: 5px;
+        background: var(--dark-orange);
+    }
+
+    .cv-button {
+        background-color: var(--dark-orange);
+        color: white;
+        border-radius: 50px;
+        padding: 2% 10%;
+        font-weight: 500;
+        margin-top: -1vh;
     }
 
     .hero-text .social-links {
@@ -534,13 +368,101 @@ div.container-fluid{
     .campaign-info{
         max-width: 33%;
     }
+
+    .clients-info{
+        border-left: 3px solid var(--dark-orange);
+        border-right: 3px solid var(--dark-orange);
+    }
+
+    .big-full-stop{
+        position: absolute;
+        width: 4vw;
+        height: 4vh;
+        background: var(--dark-orange);
+        border-radius: 50px;
+        top: 8%;
+        left: 11vw;
+        display: none;
+    }
+
+    .contributors-section{
+        margin-top: 20vh;
+    }
+
+    .contributors-section h2{
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    
+    .projects-clients-info h1{
+        color: var(--dark-orange);
+        font-weight: bold;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
+    .contact-us-section h2{
+        margin-top: 10%;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--dark-orange);
+    }
+
+    .contact-us-section p{
+        padding: 2% 10%;
+    }
+
+    .floating-dots{
+        position: absolute;
+        top: -14vh;
+        left: 7vw;
+    }
+
+    .portfolio-section{
+        position: relative;
+        top: 45vh;
+    }
+
+    
+
+    .projects-clients-info{
+        margin-top: 110vh;
+    }
+
+    .projects-info h1,
+    .clients-info h1,
+    .campaign-info h1{
+        color:var(--dark-orange);
+        font-weight:700;
+    }
+
+    .clients-info{
+        border-left: 3px solid var(--dark-orange);
+        border-right: 3px solid var(--dark-orange);
+    }
+
+    .full-stop-section{
+        position: absolute;
+        z-index: 3;
+    }
+
+    .big-full-stop{
+        border-radius: 30px;
+        height: 2em;
+        width: 2em;
+        position: absolute;
+        top: 90vh;
+        left: 12vw;
+        background: var(--dark-orange);
+        box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -webkit-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -moz-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    }
+
     .hero-text {
-        top: 9vh;
+        top: 26vh;
     }
 
     .services-cards .ui-ux-col,
@@ -559,6 +481,30 @@ div.container-fluid{
 
     .hero-text .name-text {
         font-size: 2.3vw;
+        color: var(--dark-orange);
+    }
+    
+    .hero-text .creative-designer-text{
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 0.8;
+    }
+
+    .hero-text .hero-long-text{
+        display: none;
+    }
+
+    .cv-button {
+        background-color: var(--dark-orange);
+        color: white;
+        border-radius: 50px;
+        padding: 2% 10%;
+        font-weight: 500;
+        margin-top: 1vh;
+    }
+
+    .hero-text .social-links{
+        display:none !important;
     }
 
     nav.navbar{
@@ -577,7 +523,45 @@ div.container-fluid{
     }
 
     .contributors-section{
-        margin-top: 67vh;    
+        margin-top: 20vh;    
+    }
+
+    .contributors-section h2, 
+    .services-section h2, 
+    .about-us-section h2,
+    .portfolio-section h2{
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    
+    .contributors-section p, 
+    .services-section p{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0% 8%;
+    }
+
+    .contributor-thread-image{
+        right: 5vw;
+        position: relative;
+        top: 10vh;
+    }
+
+    .full-stop,
+    .small-orange-circle,
+    .orange-text
+    {
+        color:var(--dark-orange);
+    }
+
+    .contact-us-section{
+        position: relative;
+        top: 64vh;
+    }
+
+    .services-section{
+        position: relative;
+        top: 12vh;
     }
 
     .services-cards .my-5{
@@ -586,11 +570,17 @@ div.container-fluid{
 
     .services-cards .card{ 
         width: 32vw;
+        text-align: center;
+    }
+
+    .services-cards .card-img-top{
+        width: 60%;
+        margin: 10% auto;
     }
 
     .hero-text .social-links {
         width: 20vw;
-    }s
+    }
 
     .services-cards .col-md-6, .wp-developing-col{
         display: flex;
@@ -599,6 +589,11 @@ div.container-fluid{
 
     .services-cards .card.wp-developing{
         margin-top: 3vh;
+    }
+
+    .about-us-section{
+        position: relative;
+        top: 30vh;
     }
 
     div.hero-bg-image{
@@ -616,6 +611,235 @@ div.container-fluid{
         border-radius: 100px;
         margin-right: 7.3%;
     }
+
+    .hero-text .hola-text{
+        font-size: 1.1vw;
+        font-weight: bold;
+    }
+    
+    .hero-text .name-text{
+        font-size: 1.8vw;
+        font-weight: 700;
+        color: var(--dark-orange);
+        margin:0px;
+    }
+    
+    .hero-text .creative-designer-text {
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 0.8;
+    }
+    
+    .creative-designer-text .full-stop {
+        position: absolute;
+        top: 2.55em;
+        width: 1.2vw;
+        height: 1.2vw;
+        border-radius: 10px;
+        background-color: var(--dark-orange);
+    }
+    
+    .hero-long-text{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .hero-text .social-links {
+        width: 12vw;
+    }
+    
+    .social-icon{
+        font-size:1.5rem;
+    }
+    
+    .cv-button {
+        background-color: var(--dark-orange);
+        color: white;
+        border-radius: 50px;
+        padding: 1% 8%;
+        font-weight: 500;
+    }
+    
+    .full-stop{
+        color: var(--dark-orange);
+    }
+    
+    .new-section{
+        position:relative;
+        padding:0 11%;
+    }
+    
+    .big-full-stop{
+        width: 1.875rem;
+        height: 1.875rem;
+        background: var(--light-orange);
+        border-radius: 15px;
+        box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -webkit-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -moz-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    }
+    
+    .projects-clients-info{
+        height:23.87%;
+        margin-bottom: 100px;
+    }
+    
+    .projects-clients-info h1{
+        color: var(--dark-orange);
+        font-size: 3.75rem;
+        font-weight:700;
+    }
+    
+    .projects-clients-info .clients-info{
+        border-right: 2px solid var(--dark-orange);
+        border-left: 2px solid var(--dark-orange);
+    }
+    
+    .projects-clients-info p {
+        font-size: 1.5rem;
+    }
+    
+    .dot{
+        width: 0.625rem;
+        height: 0.625rem;
+        background: var(--light-orange);
+        border-radius: 5px;
+        color: var(--light-orange);
+    }
+    
+    .contributors-section h2, 
+    .services-section h2, 
+    .about-us-section h2,
+    .portfolio-section h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .contributors-section p, 
+    .services-section p{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0% 8%;
+    }
+    
+    .contributor-thread-image{
+        margin-top: 10%;
+    }
+    
+    .services-cards .card{
+        background: var(--light-card-color);
+    }
+    
+    .services-cards img{
+        max-width: 36.5%;
+        margin-left: 1.25rem;
+        margin-top:2.125rem;
+    }
+    
+    .services-cards h4{
+        font-weight: 700;
+    }
+    
+    .services-cards p.card-text{
+        padding: 0%;
+    }
+    
+    .services-cards .card{
+        border: none;
+        border-radius: 0px;
+    }
+    
+    .services-cards .web-design-card{
+        border-bottom: 6px solid var(--dark-orange);
+    }
+    
+    .small-orange-circle{
+        color:var(--dark-orange);
+    }
+    
+    .orange-text{
+        color: var(--dark-orange);
+    }
+    
+    .about-us-section, 
+    .portfolio-section,
+    .contact-us-section {
+        margin-top: 15%;
+    }
+    
+    .about-us-section p {
+        padding : 0% 5%;
+        font-weight: 500;
+    }
+    
+    .about-us-section .floating-dots{
+        position:absolute;
+        top: -10%;
+        left: 8.5%;
+    }
+    
+    .portfolio-section img{
+        max-width: 100%;
+    }
+    
+    .portfolio-section .bottom-image{
+        margin-top: 5.5%;
+    }
+    
+    .portfolio-section .image-1{
+        width: 44%;
+    }
+    
+    .portfolio-section .other-images{
+        width: 53.33%; 
+        margin-left: 2.5%;
+        display: flex;
+        position: relative;
+    }
+    
+    .other-images .image-2,
+    .other-images .image-3,
+    .other-images .image-4,
+    .other-images .image-5{
+        width: 47.77%;
+        height:auto;
+        position:relative;
+    }
+    
+    .mt-28{
+        margin-top: 2.8%;
+    }
+    
+    .other-images img{
+        width: 100%;
+    }
+    
+    
+    
+    .portfolio-section .ml-portfolio{
+        margin-left: 5%;
+    }
+    
+    .ml--10{
+        margin-left: -10%;
+    }
+    
+    .contact-us-section h2{
+        margin-top: 10%;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--dark-orange);
+    }
+    
+    .contact-us-section .contact-text{
+        margin-top: 4%;
+        padding: 0% 22%;
+        font-weight: 500;
+    }
+    
+    .contact-us-section .social-icon{
+       margin:0% 16%;
+    }
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -625,6 +849,269 @@ div.container-fluid{
         width: 10rem;
         border-radius: 100px;
         margin-right: 1%;
+    }
+
+    .services-cards .cards{
+        width: 32vw;
+    }
+
+    .contact-us-section{
+        margin-top: 62vh;
+    }
+    
+    .contact-us-section h2{
+        margin-top: 10%;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--dark-orange);
+    }
+
+    .contact-us-section p{
+        padding: 2% 10%;
+    }
+
+    .card-img-top{
+        width: 16vw;
+    }
+
+    .floating-dots{
+        position: absolute;
+        top: -14vh;
+        left: 7vw;
+    }
+
+    .portfolio-section{
+        position: relative;
+        top: 25vh;
+    }
+
+    /* Copied styles from 1200 starts here */
+    .hero-text .hola-text{
+        font-size: 1.1vw;
+        font-weight: bold;
+    }
+    
+    .hero-text .name-text{
+        font-size: 1.8vw;
+        font-weight: 700;
+        color: var(--dark-orange);
+        margin:0px;
+    }
+    
+    .hero-text .creative-designer-text {
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 0.8;
+    }
+    
+    .creative-designer-text .full-stop {
+        position: absolute;
+        top: 2.55em;
+        width: 1.2vw;
+        height: 1.2vw;
+        border-radius: 10px;
+        background-color: var(--dark-orange);
+    }
+    
+    .hero-long-text{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0px !important;
+    }
+    
+    .hero-text .social-links {
+        width: 12vw;
+    }
+    
+    .social-icon{
+        font-size:1.5rem;
+    }
+    
+    .cv-button {
+        background-color: var(--dark-orange);
+        color: white;
+        border-radius: 50px;
+        padding: 1% 8%;
+        font-weight: 500;
+    }
+    
+    .full-stop{
+        color: var(--dark-orange);
+    }
+    
+    .new-section{
+        position:relative;
+        padding:0 11%;
+    }
+    
+    .big-full-stop{
+        width: 1.875rem;
+        height: 1.875rem;
+        background: var(--light-orange);
+        border-radius: 15px;
+        box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -webkit-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    -moz-box-shadow: -2px 3px 17px 0px rgba(212,124,53,0.75);
+    }
+    
+    .projects-clients-info{
+        height:23.87%;
+        margin-bottom: 100px;
+    }
+    
+    .projects-clients-info h1{
+        color: var(--dark-orange);
+        font-size: 3.75rem;
+        font-weight:700;
+    }
+    
+    .projects-clients-info .clients-info{
+        border-right: 2px solid var(--dark-orange);
+        border-left: 2px solid var(--dark-orange);
+    }
+    
+    .projects-clients-info p {
+        font-size: 1.5rem;
+    }
+    
+    .dot{
+        width: 0.625rem;
+        height: 0.625rem;
+        background: var(--light-orange);
+        border-radius: 5px;
+        color: var(--light-orange);
+    }
+    
+    .contributors-section h2, 
+    .services-section h2, 
+    .about-us-section h2,
+    .portfolio-section h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .contributors-section p, 
+    .services-section p{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0% 8%;
+    }
+    
+    .contributor-thread-image{
+        margin-top: 10%;
+    }
+    
+    .services-cards .card{
+        background: var(--light-card-color);
+    }
+    
+    .services-cards img{
+        max-width: 36.5%;
+        margin-left: 1.25rem;
+        margin-top:2.125rem;
+    }
+    
+    .services-cards h4{
+        font-weight: 700;
+    }
+    
+    .services-cards p.card-text{
+        padding: 0%;
+    }
+    
+    .services-cards .card{
+        border: none;
+        border-radius: 0px;
+    }
+    
+    .services-cards .web-design-card{
+        border-bottom: 6px solid var(--dark-orange);
+    }
+    
+    .small-orange-circle{
+        color:var(--dark-orange);
+    }
+    
+    .orange-text{
+        color: var(--dark-orange);
+    }
+    
+    .about-us-section{
+        margin-top: 15%;
+    }
+    
+    .about-us-section p {
+        padding : 0% 5%;
+        font-weight: 500;
+    }
+    
+    .about-us-section .floating-dots{
+        position:absolute;
+        top: -10%;
+        left: 8.5%;
+    }
+    
+    .portfolio-section img{
+        max-width: 100%;
+    }
+    
+    .portfolio-section .bottom-image{
+        margin-top: 5.5%;
+    }
+    
+    .portfolio-section .image-1{
+        width: 44%;
+    }
+    
+    .portfolio-section .other-images{
+        width: 53.33%; 
+        margin-left: 2.5%;
+        display: flex;
+        position: relative;
+    }
+    
+    .other-images .image-2,
+    .other-images .image-3,
+    .other-images .image-4,
+    .other-images .image-5{
+        width: 47.77%;
+        height:auto;
+        position:relative;
+    }
+    
+    .mt-28{
+        margin-top: 2.8%;
+    }
+    
+    .other-images img{
+        width: 100%;
+    }
+    
+    
+    
+    .portfolio-section .ml-portfolio{
+        margin-left: 5%;
+    }
+    
+    .ml--10{
+        margin-left: -10%;
+    }
+    
+    .contact-us-section h2{
+        margin-top: 10%;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--dark-orange);
+    }
+    
+    .contact-us-section .contact-text{
+        margin-top: 4%;
+        padding: 0% 22%;
+        font-weight: 500;
+    }
+    
+    .contact-us-section .social-icon{
+       margin:0% 16%;
     }
  }  
 
