@@ -9,8 +9,24 @@ body{
 }
 
 .navbar-nav > .nav-link.active, .navbar-nav > .nav-link:hover{
-    color:var(--orange) !important;
+    color:var(--dark-orange) !important;
 }
+
+.nav-link::after{
+    content:"";
+    width: 20px;
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(233,101,41,0);
+}
+
+.nav-link.active::after,
+.nav-link:hover::after{
+    /* background-color: var(--light-orange); */
+    border:1px solid rgba(233,101,41,1);
+}
+
 
 /* .hero-text{
     position:absolute;
@@ -634,13 +650,5 @@ div.container-fluid{
         margin-left: 2.34%;
     }
 
-    .nav-link:hover::after{
-        content: "";
-        display: flex;
-        flex-direction: column;
-        width: 20px;
-        height: 1px;
-        background-color: var(--light-orange);
-        border:1px solid var(--light-orange);
-    }
+    
 }
